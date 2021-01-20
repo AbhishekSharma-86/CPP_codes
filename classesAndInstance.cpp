@@ -29,26 +29,12 @@ class Person{
         }
     };
 
-    // Person::Person(int initialAge){
-    //     // Add some more code to run some checks on initialAge
-
-    // }
-
-    // void Person::amIOld(){
-    //     // Do some computations in here and print out the correct statement to the console 
-
-    // }
-
-    // void Person::yearPasses(){
-    //     // Increment the age of the person in here
-
-    // }
-
 int main(){
     int t;
 	int age;
     cin >> t;
-    for(int i=0; i < t; i++) {
+    int i;
+    for( i=0; i < t; i++) {
     	cin >> age;
         Person p(age);
         p.amIOld();
